@@ -1,0 +1,21 @@
+.header__close {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.header__close i {
+  color: #636e72;
+}
+.header__close i:hover {
+  color: #dfe6e9;
+}
+
+.cafe-form__title {
+  display: flexbox
+  align-items: center;
+  justify-content: center;
+}
