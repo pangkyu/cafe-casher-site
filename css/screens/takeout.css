@@ -1,0 +1,36 @@
+.takeout__main {
+  display: flex;
+}
+
+.takeout__cash {
+  display: flex;
+  flex-direction: column;
+
+  height: 500px;
+  width: 380px;
+  border: 1px solid black;
+  margin-left: 12px;
+  margin-top: 6px;
+}
+
+.takeout__cash--info {
+  display: flex;
+  justify-content: space-evenly;
+  height: 52px;
+  width: 100%;
+  background-color: var(--menu-color);
+}
+
+.takeout__cash--info-list {
+  display: flex;
+  margin-top: 10px;
+  padding: 8px;
+  color: var(--main-text);
+}
+
+.takeout__cash--main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+}
