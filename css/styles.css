@@ -2,13 +2,13 @@
 
 @import "reset.css";
 @import "var.css";
-@import "takeout.css";
 
 /* components */
 @import "components/header-bar.css";
 
 /* screens */
 @import "screens/index.css";
+@import "screens/takeout.css";
 
 body {
   color: #2e363e;
