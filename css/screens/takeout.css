@@ -1,16 +1,15 @@
 .takeout__main {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .takeout__cash {
   display: flex;
   flex-direction: column;
-
-  height: 500px;
-  width: 380px;
-  border: 1px solid black;
-  margin-left: 12px;
-  margin-top: 6px;
+  height: 540px;
+  width: 40%;
+  border: var(--cash-border);
+  margin-top: 11px;
 }
 
 .takeout__cash--info {
@@ -28,9 +27,89 @@
   color: var(--main-text);
 }
 
-.takeout__cash--main {
+.takeout__cash--list {
   display: flex;
   flex-direction: column;
+  height: 75%;
+}
+
+.takeout__cash--list-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.takeout__cash--list-area p {
+  padding: 5px;
+  display: flex;
+}
+
+.takeout__cash--option {
+  text-align: center;
+  height: 25px;
+}
+
+.takeout__cash--option-cancel {
+  display: flex;
+  align-items: center;
+  background-color: var(--cash-menu-color);
+  border-top: var(--cash-border);
+  border-bottom: var(--cash-border);
   width: 100%;
-  height: 100px;
+  height: 100%;
+}
+
+.takeout__cash--option-cancel div {
+  width: 25%;
+}
+
+.takeout__cash--option-cancel-allclear {
+  border-right: var(--cash-border);
+}
+
+.takeout__cash--option-cancel-lineclear {
+  border-right: var(--cash-border);
+}
+
+.takeout__cash--option-cancel-plus {
+  border-right: var(--cash-border);
+}
+
+.takeout__cash--option-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(112, 161, 255, 0.7);
+  margin-top: 2px;
+  height: 18%;
+  font-weight: 600;
+}
+
+.takeout__cash--option-total-price {
+  padding: 40px;
+}
+
+.takeout__menu {
+  display: flex;
+  height: 540px;
+  width: 55%;
+  border: var(--cash-border);
+  margin-top: 11px;
+}
+
+.takeout__menu--group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  height: 20%;
+  width: 100%;
+}
+
+.takeout__menu--group-button {
+  padding: 15px;
+  width: 16%;
+  text-align: center;
+  margin-top: 3px;
+  border-radius: 10px;
+  background-color: var(--cash-button-color);
 }
