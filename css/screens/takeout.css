@@ -79,6 +79,13 @@
   border-right: var(--cash-border);
 }
 
+.takeout__cash--option-cancel-allclear:hover,
+.takeout__cash--option-cancel-lineclear:hover,
+.takeout__cash--option-cancel-plus:hover,
+.takeout__cash--option-cancel-minus:hover {
+  background-color: rgba(112, 161, 255, 0.3);
+}
+
 .takeout__cash--option-total {
   display: flex;
   flex-direction: row;
@@ -119,6 +126,9 @@
   background-color: #1e4174;
   color: white;
 }
+.takeout__menu--group-button:hover {
+  background-color: rgba(30, 65, 116, 0.8);
+}
 
 .takeout__menu--dishes {
   display: flex;
@@ -131,7 +141,6 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  /* height 값 추가 */
   width: 100%;
   margin-top: 13px;
 }
@@ -149,10 +158,46 @@
   background-color: var(--cash-button-color);
 }
 
+.takeout__menu--dishes-button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .takeout__footer {
   display: flex;
   margin-top: 20px;
   background-color: #1e4174;
   height: 120px;
   width: 100%;
+  justify-content: space-between;
+}
+
+.takeout__footer--option {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.takeout__footer--pay {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.takeout__footer--pay-method,
+.takeout__footer--option-kind {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  color: white;
+  justify-content: center;
+}
+
+.takeout__footer--option-kind:hover,
+.takeout__footer--pay-method:hover {
+  background-color: #778beb;
+}
+.takeout__footer--option-kind i,
+.takeout__footer--pay-method i {
+  margin-bottom: 16px;
 }
