@@ -1,3 +1,7 @@
+.body {
+  display: flex;
+}
+
 .takeout__main {
   display: flex;
   justify-content: space-evenly;
@@ -91,6 +95,7 @@
 
 .takeout__menu {
   display: flex;
+  flex-direction: column;
   height: 540px;
   width: 55%;
   border: var(--cash-border);
@@ -111,5 +116,43 @@
   text-align: center;
   margin-top: 3px;
   border-radius: 10px;
+  background-color: #1e4174;
+  color: white;
+}
+
+.takeout__menu--dishes {
+  display: flex;
+  border-top: var(--cash-border);
+  height: 100%;
+  margin-top: 4px;
+}
+
+.takeout__menu--dishes-coffee {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  /* height 값 추가 */
+  width: 100%;
+  margin-top: 13px;
+}
+
+.takeout__menu--dishes-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  width: 16%;
+  height: 50px;
+  align-items: center;
+  border-radius: 10px;
   background-color: var(--cash-button-color);
+}
+
+.takeout__footer {
+  display: flex;
+  margin-top: 20px;
+  background-color: #1e4174;
+  height: 120px;
+  width: 100%;
 }
