@@ -9,6 +9,7 @@
 /* screens */
 @import "screens/index.css";
 @import "screens/takeout.css";
+@import "screens/orderlist.css";
 
 body {
   color: #2e363e;
