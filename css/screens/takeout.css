@@ -166,7 +166,6 @@
   display: flex;
   margin-top: 20px;
   background-color: #1e4174;
-  height: 120px;
   width: 100%;
   justify-content: space-between;
 }
@@ -188,7 +187,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 60px;
+  padding: 37px;
   color: white;
   justify-content: center;
 }
