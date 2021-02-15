@@ -72,14 +72,74 @@ body {
   justify-content: space-evenly;
   background-color: #1e4174;
   border-radius: 8px;
-  width: 130px;
+  width: 190px;
   height: 50px;
   margin-left: 15px;
-  margin-top: 7px;
+  margin-top: 15px;
 }
 
 .orderlist__button--up,
-.orderlist__button--down {
+.orderlist__button--down,
+.orderlist__button--return {
   padding: 10px;
+  color: var(--main-text);
+}
+
+.orderlist__button--up:hover,
+.orderlist__button--down:hover,
+.orderlist__button--return:hover {
   color: white;
+}
+
+.orderlist__button--return {
+  align-items: center;
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.orderlist__footer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 30px;
+  border: 1px solid #1e4174;
+}
+
+.orderlist__footer--header,
+.orderlist__footer--content {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.orderlist__footer--header {
+  background-color: #1e4174;
+  color: white;
+}
+
+.orderlist__footer--content {
+  height: 130px;
+}
+
+.orderlist__footer--header-no {
+  width: 20%;
+}
+
+.orderlist__footer--header-goods {
+  width: 40%;
+}
+
+.orderlist__footer--header-paymethod {
+  width: 10%;
+}
+
+.orderlist__footer--header-amount {
+  width: 10%;
+}
+
+.orderlist__footer--header-deal {
+  width: 20%;
 }
