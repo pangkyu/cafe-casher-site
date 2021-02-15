@@ -1,0 +1,44 @@
+.staff__main {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  margin-top: 40px;
+}
+.staff__main--header,
+.staff__main--content,
+.staff__main--footer {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.staff__main--header {
+  background-color: #1e4174;
+  color: #dfe6e9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.staff__main--content {
+  padding: 15px;
+}
+.staff__main--footer {
+}
+
+.staff__main-position {
+  width: 25%;
+}
+
+.staff__main-staff {
+  width: 35%;
+}
+
+.staff__main-sex {
+  width: 15%;
+}
+
+.staff__main-num {
+  width: 25%;
+}
