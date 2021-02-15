@@ -14,17 +14,16 @@
   justify-content: space-evenly;
   text-align: center;
 }
-.staff__main--header {
-  background-color: #1e4174;
-  color: #dfe6e9;
+.staff__main--header,
+.staff__main--footer {
+  background-color: rgba(255, 177, 66, 0.3);
   padding: 20px;
   border-radius: 8px;
 }
 
 .staff__main--content {
   padding: 15px;
-}
-.staff__main--footer {
+  background-color: rgba(255, 250, 101, 0.2);
 }
 
 .staff__main-position {
