@@ -5,46 +5,66 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafe casher system</title>
+    <title>Cafe casher system : sales</title>
     <meta property="og:title" content="cafe casher system">
     <meta property="og:description" content="System for cafe management">
 </head>
 
 <body>
     <header>
-        <div>
-            <div class="header__close">
-                <i class="fas fa-times fa-2x"></i>
+        <div class="header">
+            <div class="header-sector">
+                <div class="header__img">
+                    <i class="fas fa-won-sign fa-2x"></i>
+                </div>
+                <div class="header__text">
+                    <h5>매출액 조회</h5>
+                </div>
+            </div>
+            <div class="header-sector">
+                <a class="header__close header--left" href="index.html">
+                    <i class="fas fa-times fa-2x"></i>
+                </a>
             </div>
         </div>
     </header>
 
+
     <main>
-        <div>
-            <div class="cafe-form__title">
-                <h1>Coffee cook</h1>
+       <div class = "sales__date">
+            <div class = "sales__date--today">2월 16일</div>
+            <div class = "sales__date--calendar">
+                <div class = "sales__date--calendar-box">
+                    <div class = "sales__date--calendar-box-header">오늘</div>
+                    <div class = "sales__date--calendar-box-content">￦ 100,000</div>
+                </div>
+                <div class = "sales__date--calendar-box">
+                    <div class = "sales__date--calendar-box-header">이번 주</div>
+                    <div class = "sales__date--calendar-box-content">￦ 600,000</div>
+                </div>
+                <div class = "sales__date--calendar-box">
+                    <div class = "sales__date--calendar-box-header">이번 달</div>
+                    <div class = "sales__date--calendar-box-content">￦ 3,000,000</div>
+                </div>
+               
             </div>
-            <div class="cafe-form__content">
-                <a class="cafe-form__content-menu" href="takeout.html">테이크아웃
-                    <i class="fas fa-coffee"></i>
-                    <div>
-                        <i class="fas fa-angle-right"></i>
-                    </div>
-                </a>
-                <a class="cafe-form__content-menu" href = "sales.html">매출액<i class="fas fa-desktop"></i>
-                    <div><i class="fas fa-angle-right"></i></div>
-                </a>
-                <a class="cafe-form__content-menu" href = "orderlist.html">주문목록조회<i class="fas fa-comment-alt"></i>
-                    <div><i class="fas fa-angle-right"></i></div>
-                </a>
-                <a class="cafe-form__content-menu" href = "staff.html">근무자 관리<i class="fas fa-user-cog"></i>
-                    <div><i class="fas fa-angle-right"></i></div>
-                </a>
+       </div>
+
+       <div class = "sales__month">
+            <div class = "sales__month--header">
+                <div>요일</div>
+                <div>매출액</div>
+                <div>총 전표수</div>
             </div>
-        </div>
+            <div class = "sales__month--content">
+                <div>01</div>
+                <div>134,800</div>
+                <div>20</div>
+            </div>
+       </div>
     </main>
 
-
+   
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 
