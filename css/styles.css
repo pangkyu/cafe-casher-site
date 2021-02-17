@@ -11,6 +11,7 @@
 @import "screens/takeout.css";
 @import "screens/orderlist.css";
 @import "screens/staff.css";
+@import "screens/sales.css";
 
 body {
   color: #2e363e;
