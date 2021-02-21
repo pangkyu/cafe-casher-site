@@ -31,40 +31,83 @@
 
 
     <main>
-       <div class = "sales__date">
-            <div class = "sales__date--today">2월 16일</div>
-            <div class = "sales__date--calendar">
-                <div class = "sales__date--calendar-box">
-                    <div class = "sales__date--calendar-box-header">오늘</div>
-                    <div class = "sales__date--calendar-box-content">￦ 100,000</div>
+        <div class="sales-date">
+            <div class="sales-date__today">2월 16일</div>
+            <div class="sales-date__calendar">
+                <div class="sales-date__calendar-box">
+                    <div class="sales-date__calendar-box-header">오늘</div>
+                    <div class="sales-date__calendar-box-content">￦ 100,000</div>
                 </div>
-                <div class = "sales__date--calendar-box">
-                    <div class = "sales__date--calendar-box-header">이번 주</div>
-                    <div class = "sales__date--calendar-box-content">￦ 600,000</div>
+                <div class="sales-date__calendar-box">
+                    <div class="sales-date__calendar-box-header">이번 주</div>
+                    <div class="sales-date__calendar-box-content">￦ 600,000</div>
                 </div>
-                <div class = "sales__date--calendar-box">
-                    <div class = "sales__date--calendar-box-header">이번 달</div>
-                    <div class = "sales__date--calendar-box-content">￦ 3,000,000</div>
+                <div class="sales-date__calendar-box">
+                    <div class="sales-date__calendar-box-header">이번 달</div>
+                    <div class="sales-date__calendar-box-content">￦ 3,000,000</div>
                 </div>
+
+            </div>
+        </div>
+        <div class = "sales-content">
+            <div class="sales-record">
+                <div class="sales-record__header">
+                    <div class="sales-record__header--day">요일</div>
+                    <div class="sales-record__header--sales">매출액</div>
+                    <div class="sales-record__header--statement">총 전표수</div>
+                </div>
+                <div class="sales-record__content">
+                    <div class="sales-record__content--day">01</div>
+                    <div class="sales-record__content--sales">134,800</div>
+                    <div class="sales-record__content--statement">20</div>
+                </div>
+            </div>
+            <div class = "sales-paytype">
+                <div class = "sales-paytype__payment">
+                    <div class = "sales-paytype__payment--header">2021-02-16</div>
+                    <div class = "sales-paytype__payment--content">
+                        <div class = "sales-paytype__payment--content-cash">
+                            <div class = "sales-paytype__payment--content-icon"><i class="fas fa-cash-register"></i></div>
+                            <div class = "sales-paytype__payment--content-methodtext">현금</div>
+                            <div class = "sales-paytype__payment--content-counttext">3</div>
+                            <div class = "sales-paytype__payment--content-totaltext">21,000</div>
+                        </div>
+                        <div class = "sales-paytype__payment--content-credit">
+                            <div class = "sales-paytype__payment--content-icon"><i class="fas fa-credit-card"></i></div>
+                            <div class = "sales-paytype__payment--content-methodtext">신용카드</div>
+                            <div class = "sales-paytype__payment--content-counttext">24</div>
+                            <div class = "sales-paytype__payment--content-totaltext">160,300</div>
+                        </div>
+                        <div class = "sales-paytype__payment--content-gift">
+                            <div class = "sales-paytype__payment--content-icon"><i class="fas fa-gift"></i></div>
+                            <div class = "sales-paytype__payment--content-methodtext">상품권</div>
+                            <div class = "sales-paytype__payment--content-counttext">0</div>
+                            <div class = "sales-paytype__payment--content-totaltext">0</div>
+                        </div>
+                        <div class = "sales-paytype__payment--content-point">
+                            <div class = "sales-paytype__payment--content-icon"><i class="fab fa-pinterest-p"></i></div>
+                            <div class = "sales-paytype__payment--content-methodtext">포인트</div>
+                            <div class = "sales-paytype__payment--content-counttext">0</div>
+                            <div class = "sales-paytype__payment--content-totaltext">0</div>
+                        </div>
+                        <div class = "sales-paytype__payment--content-total">
+                            <div class = "sales-paytype__payment--content-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                            <div class = "sales-paytype__payment--content-methodtext">합계</div>
+                            <div class = "sales-paytype__payment--content-totaltext">181,300</div>
+                        </div>
+                        <div class = "sales-paytype__payment--content-discount">
+                            <div class = "sales-paytype__payment--content-icon"><i class="fas fa-tags"></i></div>
+                            <div class = "sales-paytype__payment--content-methodtext">할인</div>
+                            <div class = "sales-paytype__payment--content-totaltext">4,000</div>
+                        </div>
+                    </div>
+                </div>   
                
             </div>
-       </div>
-
-       <div class = "sales__month">
-            <div class = "sales__month--header">
-                <div>요일</div>
-                <div>매출액</div>
-                <div>총 전표수</div>
-            </div>
-            <div class = "sales__month--content">
-                <div>01</div>
-                <div>134,800</div>
-                <div>20</div>
-            </div>
-       </div>
+        </div>
     </main>
 
-   
+
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 
