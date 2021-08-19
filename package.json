@@ -1,0 +1,23 @@
+{
+  "name": "cafe-casher-site",
+  "version": "1.0.0",
+  "description": "- A program that can pay drinks and check sales by linking them to a database.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangkyu/cafe-casher-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pangkyu/cafe-casher-site/issues"
+  },
+  "homepage": "https://github.com/pangkyu/cafe-casher-site#readme"
+}
