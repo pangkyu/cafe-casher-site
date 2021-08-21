@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/pangkyu/cafe-casher-site/issues"
   },
-  "homepage": "https://github.com/pangkyu/cafe-casher-site#readme"
+  "homepage": "https://github.com/pangkyu/cafe-casher-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

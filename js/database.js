@@ -3,7 +3,7 @@ const database = mysql.createConnection({
     host : 'localhost',
     user : 'root',
     password  : 'onlyroot',
-  //  database : 'opentutorials'
+    database : 'cafepos'
   });
   
   database.connect();
